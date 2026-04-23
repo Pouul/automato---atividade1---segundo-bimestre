@@ -19,6 +19,7 @@ void A(){
             }
             else{
                 printf("palavra não pertence\n");
+                exit(1);
             }
         default:
             printf("\nerro no A");
@@ -51,6 +52,7 @@ void D(){
             }
             else{
                 printf("palavra não pertence\n");
+                exit(1);
             }
         
         default:
